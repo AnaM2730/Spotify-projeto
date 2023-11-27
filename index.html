@@ -26,14 +26,20 @@
   <body>
     
    <header>
-    <nav class="navbar navbar-expand-md navbar-light fixed-top bg-warning"> 
+    <nav class="navbar navbar-expand-md navbar-light bg-warning"> 
       <div class="container">
+        
         <a href="index.html" class="navbar-brand">
           <img src="imagens/spotify.svg" width="142">
         </a>
 
-        <div class="colllapse navbar-collapse">
-          <ul class="navbar-nav">
+
+      <button class="navbar-toggler" data-toggle="colllapse"  data-target="nav-principal"> <!-- MENU HAMBURGUER -->
+          <i class="fas fa-bars text-white"></i>
+        </button>
+
+        <div class="colllapse navbar-collapse" id="nav-principal">
+          <ul class="navbar-nav ml-auto">
             <li class="nav-item">
               <a href="">Premium</a>
             </li>
