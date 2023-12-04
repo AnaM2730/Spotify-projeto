@@ -5,6 +5,8 @@
 
 html, body, #home{
     height: 100%; 
+    overflow-x: hidden; /* CONTROLA A BARRA DE ROLAGEM HORIZONTAL*/
+    /* overflow-Y: hidden; - scroll barra lateral*/ /* CONTROLA A BARRA DE ROLAGEM */
 }
 
 body{
@@ -127,7 +129,12 @@ h3{
 }
 
 
-
+.rotacionar{
+    -ms-transform: rotate(30deg); /* IE 9 */
+    -webkit-transform: rotate(30deg); /* CHROME, SAFARI, OPERA */
+    transform: rotate(30deg); /* girar a imagem */
+    padding-left: 80px;
+}
 
 
 
