@@ -96,15 +96,30 @@ h3{
     letter-spacing: -0.04em;
 }
 
-
-#servicos{
-    background: white;
+.caixa{
     padding-top: 20px;
     padding-bottom: 20px;
 }
 
+#servicos{
+    background: white;
+}
+
 #servicos h2, h3{
     color: #7c25f8;
+}
+
+#recursos h3{
+    color: #9df0e1;
+}
+
+#recursos h2{
+    color: white;
+}
+
+#recursos{
+    color: rgb(255, 255, 255);
+    font-weight: bold;
 }
 
 .albuns{
