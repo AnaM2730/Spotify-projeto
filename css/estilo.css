@@ -43,6 +43,19 @@ nav.navbar-transparente{
     text-align: center;
 }
 
+
+.btn-custom{
+    color: white;
+    border-radius: 500px;
+    -webkit-border-radius: 500px;
+    -moz-border-radius: 500px;
+    text-transform: uppercase;
+    transition: background 0.4s, color 0.4s;
+    padding: 10px 15px;
+    back
+}
+
+
 h1{
     color: white;
     font-weight: 900;
@@ -53,25 +66,24 @@ h1{
 
 /* Extra small devices (portrait phones, less than 576px) */
 @media (min-width: 575.98px) { 
-    
  }
 
 /*  Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) and (max-widht: 767.98px) { 
+@media (min-width: 576px) and (max-width: 767.98px) { 
     h1{
         font-size: 3em;
     }
  }
 
 /* // Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) and (max-widht: 991.98px) { 
+@media (min-width: 768px) and (max-width: 991.98px) { 
     h1{
         font-size: 4em;
     }
  }
 
 /* // Large devices (desktops, 992px and up) */
-@media (min-width: 992px)and (max-widht: 1199.98px) { 
+@media (min-width: 992px)and (max-width: 1199.98px) { 
     h1{
         font-size: 5em;
     }
