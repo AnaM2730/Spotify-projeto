@@ -159,12 +159,21 @@ footer .navbar-nav a:hover{
     text-decoration: none;
 }
 
+footer ul{
+    list-style: none;
+}
+
+footer ul li{
+    float: right;
+    margin: 0 10px;
+}
 
 
 /* Extra small devices (portrait phones, less than 576px) */
 @media (min-width: 575.98px) { 
     .btn-custom{
         margin: 10px 15px;
+        font-size: 1em;
     }
  }
 
@@ -176,6 +185,7 @@ footer .navbar-nav a:hover{
 
     .btn-custom{
         margin: 10px 15px;
+     
     }
  }
 
