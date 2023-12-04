@@ -82,6 +82,23 @@ h1{
     font-size: 30px;
 }
 
+
+#servicos{
+    background: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.albuns{
+    padding: 10px 0;
+}
+
+
+
+
+
+
+
 /* Extra small devices (portrait phones, less than 576px) */
 @media (min-width: 575.98px) { 
     .btn-custom{
